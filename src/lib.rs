@@ -13,3 +13,4 @@ type InnerTlsStream<S> = schannel::tls_stream::TlsStream<AllowStd<S>>;
 type InnerBuilder = schannel::tls_stream::Builder;
 
 pub use builder::Builder;
+pub use tls_stream::TlsStream;
